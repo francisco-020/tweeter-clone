@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tweeter Replica</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+
+  <body>
+    <header class="top-nav-bar">
+      <div class="top-nav-inner">
+        <div class="logo" aria-hidden="true">twt</div>
+        <span class="app-name">Tweeter</span>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="composer">
+        <div class="avatar avatar-large" aria-hidden="true"></div>
+
+        <div class="composer-content">
+          <label for="tweetInput" class="sr-only">Tweet Text</label>
+
+          <textarea
+            id="tweetInput"
+            class="tweet-input"
+            rows="3"
+            placeholder="Whats on your mind?"
+          ></textarea>
+          <div class="composer-footer">
+            <p id="charLabel" class="char-label">160 character limit</p>
+            <button id="tweetBtn" class="tweet-btn" type="button">Tweeet</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
