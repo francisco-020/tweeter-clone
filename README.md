@@ -1,6 +1,6 @@
 # Tweeter Replica (Project 1)
 
-Live site: <pending netlify link>
+Live site: pending netlify link
 Repo: <https://github.com/francisco-020/tweeter-clone.git>
 
 ## What it is
