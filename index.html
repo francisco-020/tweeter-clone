@@ -7,6 +7,10 @@
 
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/app.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -32,8 +36,38 @@
           ></textarea>
           <div class="composer-footer">
             <p id="charLabel" class="char-label">160 character limit</p>
-            <button id="tweetBtn" class="tweet-btn" type="button">Tweeet</button>
+            <button id="tweetBtn" class="tweet-btn" type="button">
+              Tweeet
+            </button>
           </div>
+        </div>
+      </section>
+      <section class="tweet">
+        <div class="tweet-header">
+          <div class="avatar" aria-hidden="true"></div>
+
+          <div class="tweeter-user">
+            <p class="tweeter-name">
+              Alan Sandoval <span class="tweeter-handle">@alan123</span>
+            </p>
+            <p class="tweet-time">June 20 12:67 PM</p>
+          </div>
+        </div>
+        <p class="tweet-text">Hey, Web Dev is Cool!</p>
+
+        <div class="tweet-interactions">
+          <button class="icon-btn" type="button" aria-label="Comment">
+            <i class="ri-chat-3-line" aria-hidden="true"></i>
+          </button>
+          <button class="icon-btn" type="button" aria-label="Retweet">
+            <i class="ri-repeat-2-line" aria-hidden="true"></i>
+          </button>
+          <button class="icon-btn" type="button" aria-label="Like">
+            <i class="ri-heart-3-line" aria-hidden="true"></i>
+          </button>
+          <button class="icon-btn" type="button" aria-label="Share">
+            <i class="ri-upload-2-line" aria-hidden="true"></i>
+          </button>
         </div>
       </section>
     </main>
